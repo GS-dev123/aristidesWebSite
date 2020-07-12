@@ -1,0 +1,46 @@
+@font-face {
+  font-family: patinio;
+  src: url('Patinio Futura.ttf');
+}
+@font-face {
+  font-family: gilroyBold;
+  src: url('Gilroy-Bold.ttf');
+}
+
+.menu1{
+position: relative;
+ background: url(../img/ar2.png) no-repeat center center fixed; 
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ height: 400px;
+}
+
+
+.describe{
+	font-family: patinio;
+	color: white;
+	font-size: 60px;
+}
+.preto{
+	font-family: gilroyBold;
+	font-size: 40px;
+	color: white;
+	margin-left: -580px;
+	margin-top: 20px;
+}
+
+.footer{
+	background-color: white;
+}
+.navbar2{
+	background-color: black;
+}
+.nav-item{
+	font-family: patinio;
+	font-size: 20px;
+}
+.navbar-toggler-icon{
+	margin-top: -20px;
+}
