@@ -6,36 +6,45 @@
   font-family: gilroyBold;
   src: url('Gilroy-Bold.ttf');
 }
+@font-face {
+  font-family: gil;
+  src: url('gilL.otf');
+}
+body{
+	background-color: #e8e8e8;
+}
 
 .menu1{
 position: relative;
- background: url(../img/ar2.png) no-repeat center center fixed; 
+ background: url(../img/unnamed.jpg) no-repeat center center fixed; 
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
  background-size: cover;
- height: 400px;
+ height: 100px;
+ background: cover;
 }
 
 
 .describe{
+	position: relative;
 	font-family: patinio;
+	top: -18px;
 	color: white;
-	font-size: 60px;
+	font-size: 43px;
+
 }
 .preto{
 	font-family: gilroyBold;
-	font-size: 40px;
+	font-size: 25px;
 	color: white;
-	margin-left: -580px;
-	margin-top: 20px;
+	margin-left: -420px;
+	margin-top: 10px;
 }
 
-.footer{
-	background-color: white;
-}
+
 .navbar2{
-	background-color: black;
+	background-color: #63357e;
 }
 .nav-item{
 	font-family: patinio;
@@ -43,4 +52,68 @@ position: relative;
 }
 .navbar-toggler-icon{
 	margin-top: -20px;
+}
+.body{
+	background-color: #e8e8e8;
+	margin-top: 25px;
+}
+.or-seperator i {
+    padding: 0 10px;
+    background: red;
+    position: relative;
+    top: -11px;
+    z-index: 1;
+}   
+.carousel-item{
+	width: 100%;
+}
+.btn{
+	background-color: #63357e;
+}
+.imagem{
+	border: 1px solid white;
+	border-radius: 5px;
+}
+#sub{
+	font-size: 18px;
+	font-family: gilroyBold;
+	border: 1px solid white;
+}
+.after-slide-container{
+box-shadow: 1px;
+box-shadow: 1px 1px 1px 0 #fff, 5px 2px 20px 5px #fff;
+}
+.after-slide-text{
+	font-size: 40px;
+	font-family: patinio;
+}
+h2, .body, .footer{
+font-family: gil;
+}
+.card-group{
+  padding-right:25px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+
+}
+.card{
+  margin-right: 8px;
+  margin-top: 8px;
+  border: 1px solid white;
+  background-color: #e8e8e8;
+
+}
+
+
+
+
+
+
+
+.page-footer{
+	background-color: #714b88;
+	color: white;
+}
+.fot-top{
+	background-color:#63357e; 
 }
